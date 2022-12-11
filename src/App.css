@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Karla",sans-serif ;
+  margin : 0;
+}
+.header{
+  display: flex;
+  background-color: rgba(137, 55, 137, 0.99);
+  height: 80px;
+  align-items: center;
+  padding: 8px;
+  color:white;
+}
+.troll-img
+{
+ height: 100%;
+ margin: 6px 6px 6px 30px; 
+}
+.heading
+{
+  
+  margin: 0 auto 0 0 ;
+}
+.heading2
+{
+  padding: 30px;
+}
+.container
+{
+ margin: 40px 30px 40px 30px; 
+ min-width: 50vw;
+}
+.first-textplace , .second-textplace
+{
+  
+  display: inline ;
+  padding: 1em;
+  width: 45%;
+  font-family: "Karla", sans-serif;
+  text-indent: 5px;
+  font-size: 1.3em;
+  border:2px solid #D5D4D8;
+  border-radius: 4px;
+}
+
+.img-button
+{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  padding: 1em;
+  font-size: 20px;
+  font-family: "Karla";
+  border-radius: 4px;
+}
+
+.inputs
+{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.form
+{
+  padding: 0px 20px 5px 20px;
+}
+.meme-area
+{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.meme-img
+{
+  width: 100%;
+  max-height: 80vh;
+  border-radius: 4px;
+  border: 2px solid black ;
+}
+.topText
+{
+  position: absolute;
+  top: 2px;;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow:
+  2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0 2px 0 #000,
+  2px 0 0 #000,
+  0 -2px 0 #000,
+  -2px 0 0 #000,
+  2px 2px 5px #000;
+         
+}
+.bottomText
+{
+  position: absolute;
+  bottom: 8px;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow:
+  2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0 2px 0 #000,
+  2px 0 0 #000,
+  0 -2px 0 #000,
+  -2px 0 0 #000,
+  2px 2px 5px #000;
+}
